@@ -74,7 +74,7 @@ img.emoji {
                 function generateSearchUrl() {
                   var url = window.location.href;
                   var base_url = "https://smart.link/mvfokdeccba52?",
-                      valid_params = ["aff_sub", "offer_id", "aff_id", "ios_ifa", "google_aid", "source", "aff_click_id"],
+                      valid_params = ["aff_sub", "offer_id", "aff_id", "ios_ifa", "google_aid", "source", "aff_click_id", "adid", "bid_type","bid_won", "click_id", "cp_1", "cp_2", "cp_3", "device_ua", "idfa", "ip_address", "matchtype", "site_id"],
                       queries = (url.indexOf('?') >= 0 ? url.split('?')[1].split('&') : []),
                       found;
                     
