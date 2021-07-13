@@ -1,4 +1,7 @@
 <head>
+<!--     <link rel="icon" href="https://cdn.appsflyer.com/af-statics/images/favicon.ico" type="image/x-icon"/>
+    <link rel="apple-touch-icon" href="https://cdn.appsflyer.com/af-statics/images/favicon.png" type="image/png"/>
+    <link rel="icon" href="https://cdn.appsflyer.com/af-statics/images/favicon.png" type="image/png"/> -->
     <script>
         var mac_redirect = "null";
 
@@ -63,24 +66,45 @@
         // 0996175d55005ac441f17061c18a1602
         // c64ef8b30c732f1d79190dfa906c9ceb
         var store_link = "https://smart.link/cpknu8r1z8y2b";
-        var web_store_link = "https://smart.link/cpknu8r1z8y2b";
         var appIcon = "./blockpuzzlegamesinc-com_files/appicon_elements.png";
         var app_name = "Merge Clash";
 
+        function generateSearchUrl() {
+          var url = window.location.href;
+          var base_url = store_link + "?",
+              valid_params = ["aff_sub", "offer_id", "aff_id", "ios_ifa", "google_aid", "source", "aff_click_id", "adid", "bid_type","bid_won", "click_id", "cp_1", "cp_2", "cp_3", "device_ua", "idfa", "ip_address", "matchtype", "site_id"],
+              queries = (url.indexOf('?') >= 0 ? url.split('?')[1].split('&') : []),
+              found;
+            
+           
+          if (queries.length > 0) {
+            for (var i in queries) {
+              found = false;
+              for (var qi in valid_params) {
+                if (queries[i].indexOf(valid_params[qi]) >= 0) { found = true; }
+              }
+              if(!found){ queries.splice(i, 1); }
+            }
+          }
+        return this.appStoreUrl = base_url + queries.join('&');
+        }
+
+
+
         function is_custom_redirection() {
-            return (store_link.startsWith("http") && !store_link.startsWith("https://apps.apple.com"));
+            return (generateSearchUrl().startsWith("http") && !generateSearchUrl().startsWith("https://apps.apple.com"));
         }
 
         function redirect_to_web_store() {
-            window.location.href = web_store_link;
+            window.location.href = generateSearchUrl();
         }
 
         function redirect_to_store() {
             if (!document.hidden) {
                 if (is_custom_redirection()) {
-                    window.location.replace(store_link);
+                    window.location.replace(generateSearchUrl());
                 } else {
-                    window.location.href = store_link;
+                    window.location.href = generateSearchUrl();
                 }
             }
         }
