@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Article</title>
+    <style>
+      .article-header {
+        background: #6ec6f7;
+        color: #fff;
+        padding: 1.2rem 1rem 1rem 1rem;
+        border-radius: 0 0 18px 18px;
+        position: relative;
+      }
+      .article-header .icon-btn {
+        background: none;
+        border: none;
+        color: #fff;
+        font-size: 1.5rem;
+        margin-right: 0.7rem;
+      }
+      .article-container {
+        background: #f5f7fa;
+        border-radius: 18px;
+        margin: 2rem auto 0 auto;
+        max-width: 700px;
+        padding: 2rem 1.5rem 1.5rem 1.5rem;
+      }
+      .article-title {
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+      }
+      .article-updated {
+        color: #888;
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+      }
+      .article-content {
+        font-size: 1.15rem;
+        margin-bottom: 2rem;
+        white-space: pre-line;
+      }
+      .helpful-btns .btn {
+        min-width: 80px;
+        margin-right: 0.5rem;
+      }
+      @media (max-width: 576px) {
+        .article-title {
+          font-size: 1.3rem;
+        }
+        .article-container {
+          padding: 1.2rem 0.5rem 1.5rem 0.5rem;
+        }
+      }
+    </style>
+  </head>
+  <body class="bg-light">
+    <div class="article-header d-flex align-items-center">
+      <button class="icon-btn me-2" id="backBtn" aria-label="Back">
+        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" viewBox="0 0 16 16"><path d="M15 8a.5.5 0 0 1-.5.5H2.707l3.147 3.146a.5.5 0 0 1-.708.708l-4-4a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 7.5H14.5A.5.5 0 0 1 15 8z"/></svg>
+      </button>
+      <span class="fw-bold ms-2">Article</span>
+      <div class="ms-auto">
+        <button class="icon-btn" aria-label="Search"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16"><path d="M11 6a5 5 0 1 1-10 0 5 5 0 0 1 10 0zm-1.293 6.707a6 6 0 1 0-1.414 1.414l3.85 3.85a1 1 0 0 0 1.415-1.415l-3.85-3.85z"/></svg></button>
+        <button class="icon-btn" aria-label="Chat"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chat-dots" viewBox="0 0 16 16"><path d="M2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2zm0-1h10a3 3 0 0 1 3 3v8a3 3 0 0 1-3 3H2a3 3 0 0 1-3-3V4a3 3 0 0 1 3-3z"/><path d="M5 7a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/></svg></button>
+      </div>
+    </div>
+    <div class="article-container" id="articleContainer">
+      <div class="article-title" id="articleTitle">Loading...</div>
+      <div class="article-updated" id="articleUpdated"></div>
+      <div class="article-content" id="articleContent"></div>
+      <div class="mb-3">Was this article helpful?</div>
+      <div class="helpful-btns mb-2">
+        <button class="btn btn-outline-primary"><span class="me-1">👍</span>Yes</button>
+        <button class="btn btn-outline-primary"><span class="me-1">👎</span>No</button>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="faq-articles.js"></script>
+    <script>
+      function getQueryParam(name) {
+        const url = new URL(window.location.href);
+        return url.searchParams.get(name);
+      }
+      async function loadArticle() {
+        const game = getQueryParam('game') || 'sudoku';
+        const id = getQueryParam('id');
+        const articles = window.FAQ_ARTICLES;
+        const article = articles.find(a => a.game === game && a.id === id);
+        if (!article) {
+          document.getElementById('articleTitle').textContent = 'Article not found';
+          document.getElementById('articleUpdated').textContent = '';
+          document.getElementById('articleContent').textContent = '';
+          return;
+        }
+        document.getElementById('articleTitle').textContent = article.title;
+        document.getElementById('articleUpdated').textContent = 'Last Updated: ' + article.updated;
+        document.getElementById('articleContent').textContent = article.content;
+      }
+      document.addEventListener('DOMContentLoaded', loadArticle);
+      // Back button
+      document.getElementById('backBtn').addEventListener('click', function() {
+        const game = getQueryParam('game') || 'sudoku';
+        window.location.href = `FAQ.html?game=${encodeURIComponent(game)}`;
+      });
+    </script>
+  </body>
+</html> 
