@@ -1,0 +1,68 @@
+{
+  "name": "Block Puzzle Games",
+  "canonical": "https://blockpuzzlegamesinc.com",
+  "publicDirectories": [
+    "img",
+    "css",
+    "js",
+    "vendor",
+    "device-mockups",
+    "landing-assets",
+    "games",
+    "guides",
+    "blockpuzzle",
+    "woodblockdoku",
+    "blockpuzzlegamesinc-com_files"
+  ],
+  "canonicalRoutes": [
+    "/",
+    "/games/block-puzzle/",
+    "/games/wood-block-doku/",
+    "/games/puzzle-games/",
+    "/games/sudoku/",
+    "/games/block-out/",
+    "/games/minesweeper/",
+    "/games/merge-clash/",
+    "/games/fruit-match/",
+    "/games/snake-games/",
+    "/games/coloring-games/",
+    "/games/ball-games/",
+    "/privacy-policy.html",
+    "/contact.html",
+    "/terms-of-use.html",
+    "/guides/sudoku-techniques/",
+    "/blockpuzzle/",
+    "/woodblockdoku/"
+  ],
+  "managedRoutes": [
+    "/",
+    "/games/block-puzzle/",
+    "/games/wood-block-doku/",
+    "/games/puzzle-games/",
+    "/games/sudoku/",
+    "/games/block-out/",
+    "/games/minesweeper/",
+    "/games/merge-clash/",
+    "/games/fruit-match/",
+    "/games/snake-games/",
+    "/games/coloring-games/",
+    "/games/ball-games/",
+    "/guides/sudoku-techniques/"
+  ],
+  "noindexFiles": [
+    "404.html",
+    "article.html",
+    "blockpuzzlegamesinc-com.html",
+    "bp.html",
+    "mergeclashappstore.html",
+    "sudoku2.html",
+    "Tips.html",
+    "FAQ.html",
+    "bpcpi.html"
+  ],
+  "contentAliases": {
+    "/privacy-policy/": "privacy-policy.html",
+    "/terms-of-use/": "terms-of-use.html",
+    "/privacy-policy-history/": "privacy-policy-history.html"
+  }
+}
