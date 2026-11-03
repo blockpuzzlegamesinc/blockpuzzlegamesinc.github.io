@@ -1,7 +1,0 @@
-{
-  "faqRecords": 12,
-  "allTitlesPrerendered": true,
-  "allAnswersPrerendered": true,
-  "faqDataSourceSha256": "1655d1e89993cab6c7fe741cc7259d8a0ebf3c3b312fc899c4ad99cc0061b0c5",
-  "change": "Copy original support data file; static links and answers survive JavaScript failure; query-driven selection and search remain progressive enhancements. No answer text changed."
-}
