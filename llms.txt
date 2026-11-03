@@ -1,0 +1,32 @@
+# Block Puzzle Games Inc.
+
+> Make room on the grid, solve a Sudoku or build your next tower strategy. Find the puzzle that fits your day.
+
+Block Puzzle Games Inc. publishes the mobile games below. Each game page has gameplay details, official screenshots, verified store links and store facts checked 21 October 2026.
+
+## Games
+
+- [Block Puzzle](https://blockpuzzlegamesinc.com/games/block-puzzle/): Block Puzzle is a free wooden block puzzle game for iPhone, iPad and Android, published by Block Puzzle Games Inc. It was first released on the App Store on 13 March 2018. A browser version is also available to play online. Download: https://apps.apple.com/us/app/block-puzzle/id1356820483, https://play.google.com/store/apps/details?id=free.games.block.puzzle.board.strategy
+- [Wood Block Doku: Brain Games](https://blockpuzzlegamesinc.com/games/wood-block-doku/): Wood Block Doku: Brain Games is a free wood block puzzle game that clears lines and 3 × 3 squares for iPhone, iPad and Android, published by Block Puzzle Games Inc. It was first released on the App Store on 20 November 2022. A browser version is also available to play online. Download: https://apps.apple.com/us/app/wood-block-doku-brain-games/id6444454360, https://play.google.com/store/apps/details?id=com.wooduko.wood.block.puzzle
+- [Puzzle Games](https://blockpuzzlegamesinc.com/games/puzzle-games/): Puzzle Games is a free block-crushing puzzle game for iPhone and iPad, published by Block Puzzle Games Inc. It was first released on the App Store on 28 April 2018. Download: https://apps.apple.com/us/app/puzzle-games/id1376113125
+- [Sudoku Classic Puzzle Games](https://blockpuzzlegamesinc.com/games/sudoku/): Sudoku Classic Puzzle Games is a free classic Sudoku number puzzle game for iPhone, iPad and Android, published by Block Puzzle Games Inc. It was first released on the App Store on 29 July 2018. A browser version is also available to play online. Download: https://apps.apple.com/us/app/sudoku-classic-puzzle-games/id1409781798, https://play.google.com/store/apps/details?id=com.puzzle.games.math.brain.sudoku
+- [Block Out: Unblock Tile](https://blockpuzzlegamesinc.com/games/block-out/): Block Out: Unblock Tile is a free sliding block puzzle game for iPhone and iPad, published by Block Puzzle Games Inc. It was first released on the App Store on 1 October 2022. Download: https://apps.apple.com/us/app/block-out-unblock-tile/id1641827067
+- [Minesweeper](https://blockpuzzlegamesinc.com/games/minesweeper/): Minesweeper is a free classic Minesweeper logic puzzle game for iPhone and iPad, published by Block Puzzle Games Inc. It was first released on the App Store on 2 August 2018. Download: https://apps.apple.com/us/app/minesweeper/id1410833669
+- [Merge Clash](https://mergeclash.puzzlecats.com/): Merge Clash is a free multiplayer merge tower defense game for iPhone, iPad and Android, published by Block Puzzle Games Inc. It was first released on the App Store on 30 April 2020. Download: https://apps.apple.com/us/app/merge-clash-tower-defense/id1506854108, https://play.google.com/store/apps/details?id=merge.clash
+- [Fruit Match - Tile Games](https://blockpuzzlegamesinc.com/games/fruit-match/): Fruit Match - Tile Games is a free triple tile-matching puzzle game for iPhone and iPad, published by Block Puzzle Games Inc. It was first released on the App Store on 4 November 2023. Download: https://apps.apple.com/us/app/fruit-match-tile-games/id6469571702
+
+## Play in your browser
+
+- [Block Puzzle online](https://blockpuzzlegames.com/): Free browser version, no download required.
+- [Wood Block Doku: Brain Games online](https://woodblockdoku.com/): Free browser version, no download required.
+- [Sudoku Classic Puzzle Games online](https://fishsudoku.com/): Free browser version, no download required.
+
+## Guides
+
+- [Sudoku techniques: from singles to locked candidates](https://blockpuzzlegamesinc.com/guides/sudoku-techniques/): The core Sudoku solving techniques, explained step by step: last digit, naked and hidden singles, pairs, locked candidates and triples.
+
+## Company
+
+- [About Block Puzzle Games Inc.](https://blockpuzzlegamesinc.com/): Home page and full game catalogue
+- [Privacy policy](https://blockpuzzlegamesinc.com/privacy-policy.html)
+- Support: contact@puzzlecats.com (include the game name and your device)
