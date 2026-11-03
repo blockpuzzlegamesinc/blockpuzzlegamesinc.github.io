@@ -1,0 +1,15 @@
+{
+  "officialReference": "https://getbootstrap.com/docs/5.3/getting-started/introduction/",
+  "version": "5.3.8",
+  "assets": {
+    "css/bootstrap.min.css": "sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB",
+    "js/bootstrap.bundle.min.js": "sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+  },
+  "verifiedResponseBytesMatchSHA384": true,
+  "pages": [
+    "Tips.html",
+    "FAQ.html",
+    "article.html"
+  ],
+  "scope": "Existing legacy support widgets only; no tracking added. npm graph does not inventory these CDN resources."
+}
