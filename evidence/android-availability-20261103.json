@@ -1,0 +1,38 @@
+{
+  "recordedAt": "2026-11-03T22:30:53.470463+00:00",
+  "scope": "Verified platform availability only; publication paused. Existing iOS claims and source identity preserved.",
+  "games": {
+    "6469571702": {
+      "iosName": "Fruit Match - Tile Games",
+      "iosBundle": "com.games.tile.fruit.match",
+      "iosSeller": "Block Puzzle Games Inc.",
+      "androidPackage": "com.games.tile.fruit.match",
+      "androidName": "Fruit Game - Tile Match Puzzle",
+      "androidDisplayPublisher": "Block Puzzle Games Inc",
+      "androidLegalDeveloper": "Block Puzzle Games Inc.",
+      "basis": "Exact iOS bundle/Android package match and matching official legal developer; platform titles differ.",
+      "iosAppId": "6469571702",
+      "iosStoreUrl": "https://apps.apple.com/us/app/id6469571702",
+      "appleLookupUrl": "https://itunes.apple.com/lookup?id=6469571702&country=us",
+      "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.games.tile.fruit.match",
+      "httpStatus": 200,
+      "status": "verified official counterpart",
+      "featureParityInferred": false,
+      "sources": [
+        {
+          "title": "Official Apple US lookup",
+          "url": "https://itunes.apple.com/lookup?id=6469571702&country=us"
+        },
+        {
+          "title": "Official Google Play product and developer information",
+          "url": "https://play.google.com/store/apps/details?id=com.games.tile.fruit.match"
+        },
+        {
+          "title": "Official Block Puzzle Games Inc Android developer directory",
+          "url": "https://play.google.com/store/apps/dev?id=7109489664452673076"
+        }
+      ]
+    }
+  },
+  "idCorrection": null
+}

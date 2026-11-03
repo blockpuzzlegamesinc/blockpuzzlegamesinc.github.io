@@ -1,11 +1,13 @@
 {
   "1356820483": {
     "apple": "https://apps.apple.com/us/app/block-puzzle/id1356820483?uo=4",
-    "google": "https://play.google.com/store/apps/details?id=free.games.block.puzzle.board.strategy"
+    "google": "https://play.google.com/store/apps/details?id=free.games.block.puzzle.board.strategy",
+    "browser": "/blockpuzzle/"
   },
   "6444454360": {
     "apple": "https://apps.apple.com/us/app/wood-block-doku-brain-games/id6444454360?uo=4",
-    "google": "https://play.google.com/store/apps/details?id=com.wooduko.wood.block.puzzle"
+    "google": "https://play.google.com/store/apps/details?id=com.wooduko.wood.block.puzzle",
+    "browser": "/woodblockdoku/"
   },
   "1376113125": {
     "apple": "https://apps.apple.com/us/app/puzzle-games/id1376113125?uo=4",
@@ -29,7 +31,7 @@
   },
   "6469571702": {
     "apple": "https://apps.apple.com/us/app/fruit-match-tile-games/id6469571702?uo=4",
-    "google": null
+    "google": "https://play.google.com/store/apps/details?id=com.games.tile.fruit.match"
   },
   "1409769705": {
     "apple": "https://apps.apple.com/us/app/snake-games-arcade/id1409769705?uo=4",

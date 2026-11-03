@@ -1,0 +1,72 @@
+{
+  "scope": "Only verified company browser routes are acquisition choices beside their matching app stores. Separate browser catalogue removed. No unverified browser links added.",
+  "games": [
+    {
+      "appId": "1356820483",
+      "slug": "block-puzzle",
+      "name": "Block Puzzle",
+      "route": "/blockpuzzle/",
+      "absoluteUrl": "https://blockpuzzlegamesinc.com/blockpuzzle/",
+      "runtimeFiles": [
+        {
+          "file": "blockpuzzle/Build/ba3b52cf2145a0d544dfa9d3b19c0d21.loader.js",
+          "bytes": 26454,
+          "sha256": "a2e1e85a9f3fc56db87575b900b0534915ffd4f87e4133da842ef66dc8334712"
+        },
+        {
+          "file": "blockpuzzle/Build/c0fca57d7a86d85aec9aef34f15a595d.data",
+          "bytes": 37633826,
+          "sha256": "e6c0fce6f37c8deb2c11b282899f29e280a3321f795bba60c9bf0ffbe1a2b82a"
+        },
+        {
+          "file": "blockpuzzle/Build/b5b30e23f6f705064145f52f6a9a5fed.framework.js",
+          "bytes": 492723,
+          "sha256": "ec0754f67ef1273b2daea6a051e10bb014fb5c6760e20035384a4f45feb43a1c"
+        },
+        {
+          "file": "blockpuzzle/Build/4c213ec308ff1913bfa295840e290726.wasm",
+          "bytes": 56733513,
+          "sha256": "73dc26bb57d1fd1c98afe648462c915416d3136e1e6a2735eb95004e938c00a3"
+        }
+      ],
+      "verification": "Existing source wrapper references resolve to actual preserved runtime assets; no new engine or gameplay correctness claim.",
+      "sameFeatureParityInferred": false
+    },
+    {
+      "appId": "6444454360",
+      "slug": "wood-block-doku",
+      "name": "Wood Block Doku",
+      "route": "/woodblockdoku/",
+      "absoluteUrl": "https://blockpuzzlegamesinc.com/woodblockdoku/",
+      "runtimeFiles": [
+        {
+          "file": "woodblockdoku/Build/0e3923092db9ca23afcac1c8dc09c002.loader.js",
+          "bytes": 26454,
+          "sha256": "1873cf7414d500dba5520f46e414058221b1e6250e8aa02e422b91f25db4bc3d"
+        },
+        {
+          "file": "woodblockdoku/Build/6820b475acf590eba3b2a9356d2f3581.data",
+          "bytes": 38225637,
+          "sha256": "4bc92ba5761c3e901aa391bf8fe875a2961616734a1d904efced85b451c93a16"
+        },
+        {
+          "file": "woodblockdoku/Build/df1584e3dff2b56fc267d3cd3d787786.framework.js",
+          "bytes": 490141,
+          "sha256": "d94e4955e0b4fa68aa6521788faf866af3300745d1de569a8d9958e419eeb547"
+        },
+        {
+          "file": "woodblockdoku/Build/ed108ad35a85434590a804cb369628ca.wasm",
+          "bytes": 54963934,
+          "sha256": "dc37073bcefb9997d82ed5129bb4da72ac4a7ad9501bb1c9a79b9aed7ba9c1da"
+        }
+      ],
+      "verification": "Existing source wrapper references resolve to actual preserved runtime assets; no new engine or gameplay correctness claim.",
+      "sameFeatureParityInferred": false
+    }
+  ],
+  "unverifiedNotPromoted": [
+    "Fish Sudoku",
+    "Solitaire",
+    "Spider Solitaire"
+  ]
+}
