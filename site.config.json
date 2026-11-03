@@ -30,9 +30,7 @@
     "/privacy-policy.html",
     "/contact.html",
     "/terms-of-use.html",
-    "/guides/sudoku-techniques/",
-    "/blockpuzzle/",
-    "/woodblockdoku/"
+    "/guides/sudoku-techniques/"
   ],
   "managedRoutes": [
     "/",
@@ -67,5 +65,13 @@
   },
   "publicFiles": [
     "faq-articles.js"
+  ],
+  "externalCanonicalAliases": {
+    "/blockpuzzle/": "https://blockpuzzlegames.com/",
+    "/woodblockdoku/": "https://woodblockdoku.com/"
+  },
+  "visibleGameWrappers": [
+    "blockpuzzle",
+    "woodblockdoku"
   ]
 }
